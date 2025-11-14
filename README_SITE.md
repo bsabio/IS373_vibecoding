@@ -1,4 +1,4 @@
-AART Gallery — Neo‑Brutalist Swiss‑style demo
+A NeoBrutalism Gallery — Neo‑Brutalist Swiss‑style demo
 
 This is a small static gallery using images found in `research/references/`.
 
