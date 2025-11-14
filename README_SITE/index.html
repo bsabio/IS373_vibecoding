@@ -1,0 +1,30 @@
+<p>AART Gallery — Neo‑Brutalist Swiss‑style demo</p>
+<p>This is a small static gallery using images found in <code>research/references/</code>.</p>
+<p>How to build</p>
+<ol>
+<li>Install dependencies if you haven't already (this repository contains quality-gate tooling; installing deps is optional for the static site itself):</li>
+</ol>
+<pre><code class="language-bash">npm install
+</code></pre>
+<ol start="2">
+<li>Build the static site into <code>build/</code>:</li>
+</ol>
+<pre><code class="language-bash">npm run build
+</code></pre>
+<ol start="3">
+<li>Preview the build directory (you can use a simple static server like <code>serve</code>):</li>
+</ol>
+<pre><code class="language-bash">npx serve build
+</code></pre>
+<p>Files</p>
+<ul>
+<li><code>index.html</code> — site markup</li>
+<li><code>styles.css</code> — neo‑brutalist / swiss styling</li>
+<li><code>script.js</code> — lightbox + navigation</li>
+<li><code>research/references/*</code> — artwork images (copied into <code>build/references/</code> during <code>npm run build</code>)</li>
+</ul>
+<p>Notes</p>
+<ul>
+<li>The <code>build</code> script is a simple copy operation; change it to your real build flow if you later add a bundler.</li>
+<li>The design intentionally uses high-contrast typography, large scale headings, and asymmetric layout to echo swiss and neo‑brutalist aesthetics.</li>
+</ul>
