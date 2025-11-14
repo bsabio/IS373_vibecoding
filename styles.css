@@ -245,6 +245,51 @@ a {
   color: var(--fg);
 }
 
+/* Ensure the thoughts grid clears the fixed header */
+.thoughts-grid {
+  margin-top: calc(var(--site-header-height) + 12px);
+}
+
+/* Color the edge cards orange and the center card purple */
+.thoughts-grid .thought-card:nth-child(1),
+.thoughts-grid .thought-card:nth-child(3) {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--card-border);
+}
+.thoughts-grid .thought-card:nth-child(2) {
+  background: var(--purple);
+  color: #fff;
+  border-color: var(--card-border);
+}
+
+/* Ensure inner paragraph/text uses white on colored cards */
+.thoughts-grid .thought-card:nth-child(1) .card-inner p,
+.thoughts-grid .thought-card:nth-child(2) .card-inner p,
+.thoughts-grid .thought-card:nth-child(3) .card-inner p {
+  color: #fff;
+}
+
+/* Ensure standalone article pages clear the fixed header so the heading/content
+   are not visually clipped under the site header. Uses the shared header height
+   variable so spacing adapts to responsive breakpoints. */
+.article {
+  margin-top: calc(var(--site-header-height) + 14px);
+  padding-top: 6px; /* small breathing room inside the article */
+}
+
+@media (max-width: 900px) {
+  .article {
+    margin-top: calc(var(--site-header-height) / 2 + 8px);
+  }
+}
+
+@media (max-width: 900px) {
+  .thoughts-grid {
+    margin-top: calc(var(--site-header-height) / 2 + 8px);
+  }
+}
+
 /* Accessibility: ensure focus outlines are visible and obvious */
 a:focus,
 .btn:focus,
