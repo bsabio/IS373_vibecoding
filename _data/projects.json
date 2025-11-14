@@ -1,0 +1,88 @@
+[
+  {
+    "id": "p1",
+    "title": "Constructed Form 1",
+    "image": "research/references/neo1.jfif",
+    "year": "2021",
+    "description": "Exploration of mass and void in folded surfaces.",
+    "url": "work.html#gallery"
+  },
+  {
+    "id": "p2",
+    "title": "Constructed Form 2",
+    "image": "research/references/neo2.jfif",
+    "year": "2021",
+    "description": "Angular study in planar contrast.",
+    "url": "work.html#gallery",
+    "highlight": "purple",
+    "featured": true
+  },
+  {
+    "id": "p3",
+    "title": "Constructed Form 3",
+    "image": "research/references/neo3.jpg",
+    "year": "2020",
+    "description": "Compositional experiment in scale.",
+    "url": "work.html#gallery",
+    "highlight": "purple",
+    "featured": true
+  },
+  {
+    "id": "p4",
+    "title": "Constructed Form 4",
+    "image": "research/references/neo4.jpg",
+    "year": "2022",
+    "description": "Material juxtaposition and texture.",
+    "url": "work.html#gallery",
+    "highlight": "purple"
+  },
+  {
+    "id": "p5",
+    "title": "Constructed Form 5",
+    "image": "research/references/neo5.jpg",
+    "year": "2022",
+    "description": "Contrast of color and raw material in planar forms.",
+    "url": "work.html#gallery",
+    "highlight": "purple"
+  },
+  {
+    "id": "p6",
+    "title": "Constructed Form 6",
+    "image": "research/references/neo6.jpg",
+    "year": "2023",
+    "description": "Study in shadow and edge definition.",
+    "url": "work.html#gallery"
+  },
+  {
+    "id": "p7",
+    "title": "Constructed Form 7",
+    "image": "research/references/neo7.jpg",
+    "year": "2020",
+    "description": "Typographic framing and geometry.",
+    "url": "work.html#gallery"
+  },
+  {
+    "id": "p8",
+    "title": "Constructed Form 8",
+    "image": "research/references/neo8.png",
+    "year": "2020",
+    "description": "Study in typographic proportions and structural framing.",
+    "url": "work.html#gallery"
+  },
+  {
+    "id": "p9",
+    "title": "Constructed Form 9",
+    "image": "research/references/neo9.jpg",
+    "year": "2021",
+    "description": "Bold composition with negative space.",
+    "url": "work.html#gallery"
+  },
+  {
+    "id": "p10",
+    "title": "Constructed Form 10",
+    "image": "research/references/neo10.jpg",
+    "year": "2023",
+    "description": "Large-scale material study.",
+    "url": "work.html#gallery"
+  }
+]

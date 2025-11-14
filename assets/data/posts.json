@@ -1,0 +1,16 @@
+[
+  {
+    "id": "post1",
+    "title": "On Materiality",
+    "excerpt": "Short reflections on the craft and surfaces that shape brutalist work.",
+    "url": "thoughts.html",
+    "date": "2024-09-12"
+  },
+  {
+    "id": "post2",
+    "title": "Design Exercises",
+    "excerpt": "Exercises and studies in proportion, rhythm, and typographic tension.",
+    "url": "learn.html",
+    "date": "2024-06-03"
+  }
+]

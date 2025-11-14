@@ -10,7 +10,8 @@
     "lint:eslint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:stylelint": "stylelint \"**/*.{css,scss,html}\" --ignore-path .stylelintignore || true",
     "lint": "npm run lint:eslint && npm run lint:stylelint",
-    "build": "rm -rf build && mkdir -p build && cp index.html work.html learn.html thoughts.html about.html styles.css script.js include-partials.js favicon.svg manifest.webmanifest build/ || true && mkdir -p build/partials && cp -r partials/* build/partials/ || true && mkdir -p build/references && cp -r research/references/* build/references/ || true && mkdir -p build/assets/data && cp -r assets/data/* build/assets/data/ || true"
+    "build": "eleventy",
+    "eleventy": "eleventy"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx,json,css,scss,md,html}": [
@@ -25,7 +26,8 @@
     "lint-staged": "^16.2.6",
     "prettier": "^3.6.2",
     "stylelint": "^16.25.0",
-    "stylelint-config-standard": "^39.0.1"
+    "stylelint-config-standard": "^39.0.1",
+    "@11ty/eleventy": "^1.0.0"
   },
   "main": ".eslintrc.js",
   "repository": {
