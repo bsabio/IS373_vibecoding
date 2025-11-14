@@ -1,5 +1,8 @@
 name: CI/CD
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ main ]
@@ -42,6 +45,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Use Node.js
         uses: actions/setup-node@v4
@@ -53,6 +58,11 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Verify build dir
+        run: |
+          echo "Build output listing:"
+          ls -la build || (echo 'build directory missing' && exit 1)
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
