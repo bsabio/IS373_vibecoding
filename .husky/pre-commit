@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Run lint-staged (Prettier, ESLint, Stylelint) on staged files. If any check fails, commit is blocked.
+npx lint-staged
